@@ -19,6 +19,4 @@ services:
     image: ghcr.io/cooorn/assistgpt:sha256-f6e8e4bc40c79c518590015e3d91becfa4fdebf7ae48ba3e54570866e85d7d34.sig
     ports:
       - 3000:3000
-    environment:
-      - 'OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXX'
-      - 'OPENAI_API_HOST=http://api:8080'
+
