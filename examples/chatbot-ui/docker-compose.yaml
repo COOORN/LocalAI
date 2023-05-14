@@ -16,7 +16,7 @@ services:
     command: ["/usr/bin/local-ai" ]
 
   chatgpt:
-    image: ghcr.io/mckaywrigley/chatbot-ui:main
+    image: ghcr.io/cooorn/assistgpt@sha256:81af2d0c9bb855844706909002c47c180ddddd2ddab217ac4bfeac463b68ecf8
     ports:
       - 3000:3000
     environment:
